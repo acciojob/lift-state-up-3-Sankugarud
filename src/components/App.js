@@ -11,11 +11,11 @@ const App = () => {
           <h1>Parent Component</h1>
           <div className="child1">
             <h3>Child Component 1</h3>
-            <button onClick={ () => setOption("Option 1")}>option 1</button>
+            <button onClick={ () => setOption("Option 1")}>Option 1</button>
           </div>
           <div className="child2">
             <h3>Child Component 2</h3>
-            <button onClick={() => setOption("Option 2")}>option 2</button>
+            <button onClick={() => setOption("Option 2")}>Option 2</button>
           </div>
           <p>Selected Option: {option}</p>
         </div>
